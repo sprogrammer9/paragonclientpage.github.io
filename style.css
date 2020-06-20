@@ -150,3 +150,63 @@ html,body{
     border-bottom:5px solid transparent;
 }
 }
+
+/*----------Reset Styles----------*/
+
+* {
+    box-sizing: border-box;
+}
+html,body{
+    margin:0;
+    width: 100%;
+    overflow-x: hidden;
+}
+/*-----Imports------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*-----Common use classes-------*/
+.uppercase{
+    text-transform: uppercase;
+}
+.uppercase-bold{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.text-center{
+    text-align: center;
+}
+
+/*------Background------------*/
+body{
+    background-color: #E5E5E5;
+}
+/*------------Footer Section--------------*/
+#footer-section{
+    background-color:#0F2531;
+    color: white;
+    margin-top: 5%;
+    padding: 20px;
+    
+}
+
+.footer-list{
+    list-style: none;
+    padding-inline-start: 0;
+}
+.social-list{
+    padding-inline-start: 0;
+}
+.social-list li{
+    list-style: none;
+    display: inline;
+    padding: 10px 10px 10px 0;
+}
+.footer-link{
+   
+    text-decoration: none;
+    color: white;
+    padding: 0;
+}
+#sitemap{
+    display: inline-block;
+}
