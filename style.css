@@ -25,9 +25,8 @@ body{
 }
 
 .bottom-text{
-    position: absolute;
-    width: 1177px;
-    height: 32px;
+    width: 50%;
+/*     height: ;  */
          
     font-family: Montserrat;
     font-style: normal;
